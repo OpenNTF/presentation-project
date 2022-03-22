@@ -18,7 +18,7 @@ We are aware of the various places where people put their presentations, demos a
 
 We started with a simple UI to submit either files or links to presentations for all who want to share something along with some meta data. The app was built with HCL Domino Volt 1.0.5. Since a Volt app is not very usable in a source control system, we put it here as an exported app (a .volt file). If you want to deploy it on your system, you need at least version 1.0.5.
 
-The Volt app is far from being complete but the overall data model is settled more or less.
+The Volt app is far from being complete but the overall data model is settled more or less. [You can test it live here]([https://link](https://notesx.net/volt-apps/landing/org/app/9f56efc0-9789-4143-8475-fc39dd0b92bd)).
 
 ## The goal
 
