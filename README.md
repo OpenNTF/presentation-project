@@ -1,92 +1,72 @@
-# presentation-project
+# The Presentation Project
 
+This repository collects all parts of the application which is going to be the centre of the presentation project of OpenNTF.
 
+## The idea
 
-## Getting started
+The main goal of this idea is to collect presentations from the past decades that were used in
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- conference sessions
+- webinars
+- webcasts
+- tutorials
+- etc.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+We are aware of the various places where people put their presentations, demos and videos but we want to collect them all in a single place. It's a curated aggregator for presentations, like Collaboration Today is an aggregator for news and blog posts.
 
-## Add your files
+## Submission App
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+We started with a simple UI to submit either files or links to presentations for all who want to share something along with some meta data. The app was built with HCL Domino Volt 1.0.5. Since a Volt app is not very usable in a source control system, we put it here as an exported app (a .volt file). If you want to deploy it on your system, you need at least version 1.0.5.
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/obusse/presentation-project.git
-git branch -M main
-git push -uf origin main
-```
+The Volt app is far from being complete but the overall data model is settled more or less.
 
-## Integrate with your tools
+## The goal
 
-- [ ] [Set up project integrations](https://gitlab.com/obusse/presentation-project/-/settings/integrations)
+As Volt stores data in an NSF, our goal is to produce a frontend for the data. This frontend app is going to be accessible over the OpenNTF website. We are not narrowing down the technology that should be used to create this app since we do not plan to deeply integrate it in the current website - which is based on XPages. This, however, doesn't mean that the app should not be made with XPages - we are open to whatever will fit. The technology stack should only align with the possibilities of the OpenNTF infrastructure. 
 
-## Collaborate with your team
+Potential options are
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- XPages
+- AppDev pack, Node.js
+- any UI framework for Javascript
+- Java app server
+- you name it
 
-## Test and Deploy
+Of course all options should make it possible to access NSF data. Rule of thumb: keep it simple.
 
-Use the built-in continuous integration in GitLab.
+### Features wanted
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+Some features are mandatory:
 
-***
+- the app should be like a catalog
+- search / filter function
+- preview images of presenations
+- abstract texts for the items
 
-# Editing this README
+## We want you!
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+Of course we want you to participate in the process of building this new app for OpenNTF. The project is open-source and it follows the idea of bringing people and creativity together. Any help is appreciated. Even if you are not a developer you can help with testing or writing documentation - yes, there will be a technical and a user documentation ;-)
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+Possible areas for your support are
 
-## Name
-Choose a self-explaining name for your project.
+- being part of the development for the UI app
+- mockups, UI/UX
+- developing and improving the submission app (or create something completely different if Volt is not your favorite)
+- testing
+- writing documentation
+- support
+- project management
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## Side effects
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Beside from being part of something bigger you can also learn some new techniques and meet other people. This is not a contest, so we are not going to have 20 different apps that do the same more or less. In the first wave we collect ideas and discuss technologies being used. When this is done, we focus on the coding part itself.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+## Join the discussion
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+We have a dedicated channel in the OpenNTF Slack: https://app.slack.com/client/T0A6JU4PL/C037SDWA073
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+This page is updated regularly.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+|Version|History|
+|---|---|
+|rev 0.0.1, 2022-03-22|Initial readme|
