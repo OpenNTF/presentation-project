@@ -65,6 +65,10 @@ Beside from being part of something bigger you can also learn some new technique
 
 We have a dedicated channel in the OpenNTF Slack: https://app.slack.com/client/T0A6JU4PL/C037SDWA073
 
+Text me here if you have any question :-)
+
+> Oliver Busse
+
 This page is updated regularly.
 
 |Version|History|
