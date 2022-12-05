@@ -1,0 +1,39 @@
+<!-- The default theme contents use theme inheritance. Application themes 
+	can extend an existing global theme using the extends attribute. Existing 
+	themes include the following options: 1. webstandard 2. oneui 3. notes -->
+<theme
+	extends="Bootstrap3_flat"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="platform:/plugin/com.ibm.designer.domino.stylekits/schema/stylekit.xsd">
+	<!-- set page title and favicon -->
+	<control override="false">
+		<!-- set a default page name unless you define it in the page itself -->
+		<name>ViewRoot</name>
+		<property>
+			<name>pageTitle</name>
+			<value>#{javascript:@DbTitle()}</value>
+		</property>
+		<!-- the favicon for browser bookmark -->
+		<property>
+			<name>pageIcon</name>
+			<value>favicon.ico</value>
+		</property>
+	</control>
+	<!-- set behavior of some HTML elements -->
+	<control>
+		<!-- aligns text labels in a form table -->
+		<name>HtmlTr</name>
+		<property mode="concat">
+			<name>style</name>
+			<value>vertical-align:top</value>
+		</property>
+	</control>
+	<control>
+		<!-- set the cellpadding of tables -->
+		<name>HtmlTd</name>
+		<property mode="concat">
+			<name>style</name>
+			<value>padding:3px</value>
+		</property>
+	</control>
+</theme>
