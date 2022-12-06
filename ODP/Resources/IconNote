@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='12.0'
  maintenanceversion='1.0' replicaid='C125890F006702B4'>
-<noteinfo noteid='11e' unid='C86770EFC4847DA3C125890F006702B7' sequence='4'>
+<noteinfo noteid='11e' unid='C86770EFC4847DA3C125890F006702B7' sequence='8'>
 <created><datetime>20221205T194509,03+01</datetime></created>
-<modified><datetime>20221205T194536,99+01</datetime></modified>
-<revised><datetime>20221205T194536,98+01</datetime></revised>
-<lastaccessed><datetime>20221205T194536,98+01</datetime></lastaccessed>
+<modified><datetime>20221205T195249,95+01</datetime></modified>
+<revised><datetime>20221205T195249,94+01</datetime></revised>
+<lastaccessed><datetime>20221205T195249,94+01</datetime></lastaccessed>
 <addedtofile><datetime>20221205T194509,04+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
 <item name='IconBitmap' summary='true'>
@@ -23,9 +23,12 @@ d30fAAAAAPHXd33Xd3d913d9HwAAAADx13d913d3fdd3fR8AAAAA8R3d0dd3d30d3dEfAAAAAA8R
 EREdd3fRERER8AAAAAAA////Ed3dEf///wAAAAAAAAAAAPERER8AAAAAAAAAAAAAAAAP///wAAAA
 AAAAUEECICABAAD/////+A4DgA==
 </rawitemdata></item>
-<item name='$Flags'><text>J7</text></item>
 <item name='$Daos'><text>0</text></item>
 <item name='$LargeSummary'><text>0</text></item>
-<item name='$TITLE'><text>Presentations
+<item name='$Flags'><text>J7!</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$DefaultXPage'><text>index.xsp</text></item>
+<item name='$TITLE'><text>OpenNTF Presentations
 </text></item></note>
 
