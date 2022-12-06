@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='1.0'
+ replicaid='C125890F006702B4'>
+<noteinfo noteid='1fa' unid='CF06B3DB601F8C7FC12589100076771C' sequence='1'>
+<created><datetime>20221206T223357,40+01</datetime></created>
+<modified><datetime>20221206T223357,41+01</datetime></modified>
+<revised><datetime>20221206T223357,40+01</datetime></revised>
+<lastaccessed><datetime>20221206T223357,40+01</datetime></lastaccessed>
+<addedtofile><datetime>20221206T223357,40+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=Nintera</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>HomeRedir</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$HTMLHeadTag' sign='true'><formula>@SetHTTPHeader("Refresh"; "0; url=/" + @WebDbName + "/xsp/app");
+""</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAo=
+</rawitemdata></item></note>
+

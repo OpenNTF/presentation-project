@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='1.0'
  replicaid='C125890F006702B4'>
-<noteinfo noteid='16e' unid='7F81854FDAA43BA5C125890F00671569' sequence='2'>
+<noteinfo noteid='16e' unid='7F81854FDAA43BA5C125890F00671569' sequence='6'>
 <created><datetime>20221205T194556,89+01</datetime></created>
-<modified><datetime>20221205T194657,29+01</datetime></modified>
-<revised><datetime>20221205T194657,28+01</datetime></revised>
-<lastaccessed><datetime>20221205T194657,28+01</datetime></lastaccessed>
+<modified><datetime>20221206T223624,20+01</datetime></modified>
+<revised><datetime>20221206T223624,19+01</datetime></revised>
+<lastaccessed><datetime>20221206T223624,19+01</datetime></lastaccessed>
 <addedtofile><datetime>20221205T194557,16+01</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
 <wassignedby><name>CN=Oliver Busse/O=Nintera</name></wassignedby>
@@ -14,18 +14,18 @@
 <rawitemdata type='1'>
 X/8QAAIADwAHAAAAAAAAAA==
 </rawitemdata></item>
-<item name='$TITLE'><text>config</text></item>
 <item name='$Info' sign='true'>
 <rawitemdata type='1'>
 hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
 </rawitemdata></item>
 <item name='$Flags'><text/></item>
-<item name='$XPageAlt'><text>config.xsp</text></item>
-<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$XPageAlt' sign='true'><text>config.xsp</text></item>
 <item name='$$ScriptName' summary='false' sign='true'><text>config</text></item>
 <item name='$Body' sign='true'>
 <rawitemdata type='1'>
 gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAo=
-</rawitemdata></item></note>
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><text>_Setting</text></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item></note>
 

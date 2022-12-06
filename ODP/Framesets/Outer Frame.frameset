@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='1.0'
+ replicaid='C125890F006702B4'>
+<noteinfo noteid='20a' unid='9019BD4D7ADEDB76C125891000767BD0' sequence='1'>
+<created><datetime>20221206T223409,44+01</datetime></created>
+<modified><datetime>20221206T223409,47+01</datetime></modified>
+<revised><datetime>20221206T223409,46+01</datetime></revised>
+<lastaccessed><datetime>20221206T223409,46+01</datetime></lastaccessed>
+<addedtofile><datetime>20221206T223409,46+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=Nintera</name></wassignedby>
+<item name='$TITLE' sign='true'><text>Outer Frame</text></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$FrameSet' sign='true'>
+<rawitemdata type='1'>
+7/8YAAIAAwAAAAAAAAAAAAAAAAAAAAAA8P8+AEUAAAABAAAAAAACAAIAAAAAAAUAAAAAAAUAAAAA
+AAEAAgAAAAAAAQAvLy8AAAADAAEAAQC+AAIAUADx/0AAAQAAAABAAQADAAEAAQAAAAAAAwAAAAkA
+AQAvLy8AAABOYXZOb3Rlc1ZpZXcBAP///ywBAAAKAQAAAAAs9v8yAAAAAAADAAYAEAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAE5hdmlnYXRpb24gRnJhbWXx/z0AAQEAAABAAAADAAEAAQAAAAAACQAAAAAA
+AQAvLy8AAABOb3Rlc1ZpZXcBAP///ywBAAAKAQAAAAAsP/b/OwAAAAAAAwACAAMACAAOAAAAAAAA
+AAAASGVyYy9NVENpdFxkYXRhYXBwLm50ZgAAAAAAAAAAQWxsPw==
+</rawitemdata></item>
+<item name='$Flags'><text>#34CQ</text></item></note>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="C125890F006702B4" version="12.0">
+<noteinfo noteid="226" sequence="8" unid="3C9F5044F4259C00C125891000770C09">
+<created><datetime>20221206T224018,65+01</datetime></created>
+<modified><datetime>20221206T224047,69+01</datetime></modified>
+<revised><datetime>20221206T224047,68+01</datetime></revised>
+<lastaccessed><datetime>20221206T224047,68+01</datetime></lastaccessed>
+<addedtofile><datetime>20221206T224018,65+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=Nintera</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+
+
+
+
+
+
+
+<item name="$TITLE"><text>model/blog/PresentationEntry.java</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>model/blog/PresentationEntry.java</text></item></note>

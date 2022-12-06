@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='12.0' maintenanceversion='1.0'
+ replicaid='C125890F006702B4'>
+<noteinfo noteid='202' unid='3FE4C5303E24BED8C12589100076771E' sequence='1'>
+<created><datetime>20221206T223357,42+01</datetime></created>
+<modified><datetime>20221206T223357,44+01</datetime></modified>
+<revised><datetime>20221206T223357,43+01</datetime></revised>
+<lastaccessed><datetime>20221206T223357,43+01</datetime></lastaccessed>
+<addedtofile><datetime>20221206T223357,43+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=Nintera</name></wassignedby>
+<item name='OriginalModTime'><datetime dst='true'>20061024T120302,07-04</datetime></item>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>NavPage</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAATwABANbd5QAQAAAA
+</rawitemdata></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAADgEAAA4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSAOAQAADgEAABZTGQAAQAAAAQAAACDBAEAhf8JAAEAAAogAIECgwQBAIX/
+CAABAAAK3QYAAK3/cf8qAAAAAAADABYACAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1haW5PdXQArf8U
+ABsACAAAAAgATWFpbk91dADq/z4AGwABhAAAZACUAgEAAAoAAAAAAAAAAAEBAAoBAAAKAAAFAP//
+/wABAAAAAAAAAAAAAAAAAAAAAAAAAOz/IgHgDwQAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAIAE6
+AAAAIAE6AAAAIAELAAkAAQAACgEAAAoBAAAKAQAACgEAAAoBAAAKAAAAAAAAIAFEAUQBAwADAAMA
+BQD///8ABQD///8ABQD///8ABQD///8ABQD///8AAQBXbIMABQA/gIAABQD39/cAAQBXbIMABQA/
+gIAAAQAAAAAAAQD///8AAQD///8AAAAAAAIAAgAAAAAAAwADAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAEAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAAEAAAAAAAAAEwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAFRlbXBPdXRsaW5lTm90ZXNWaWV3/P86AAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAA
+AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAK4C3gYAAK4Ahf8IAAEAAAo=
+</rawitemdata></item>
+<item name='$Flags'><text>C34WQ1</text></item></note>
+
