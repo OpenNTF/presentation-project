@@ -19,7 +19,9 @@
 		<link rel="alternate" href="${urlBean.requestUri.resolve('xsp/app/feed.xml')}" type="application/rss+xml" title="${fn:escapeXml(translation.feedRssBlog)}">
 		<link rel="EditURI" type="application/rsd+xml" href="${urlBean.requestUri.resolve('xsp/app/rsd.xml')}" />
 		
+		<!-- 
 		<script type="text/javascript" src="${pageContext.request.contextPath}/webjars/hotwired__turbo/7.1.0/dist/turbo.es2017-umd.js"></script>
+		 -->
 		
 		<title>${translation.appTitle}</title>
 	</head>
@@ -28,6 +30,7 @@
 			<a href="${pageContext.request.contextPath}/xsp/app/" class="logo">
 				<img src="img/openntf_222222_bg.jpg" alt="${fn:escapeXml(translation.appTitle)}" />
 			</a>
+			<!-- 
 			<nav id="pagenav" role="navigation">
 				<ul>
 					<c:forEach items="${NavLinks}" var="link">
@@ -35,6 +38,7 @@
 					</c:forEach>
 				</ul>
 			</nav>
+			 -->
 			
 			<div class="user-info">
 				<c:if test="${pageContext.request.remoteUser eq 'Anonymous'}">
@@ -46,6 +50,7 @@
 			</div>
 		</header>
 		<main id="pagebody">
+		<!-- 
 			<c:if test="${not empty redirectMessages}">
 				<ul>
 					<c:forEach items="${redirectMessages}" var="message">
@@ -53,7 +58,7 @@
 					</c:forEach>
 				</ul>
 			</c:if>
-		
+		 -->
 			<jsp:doBody />
 		</main>
 		<footer id="pagefooter">

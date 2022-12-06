@@ -5,11 +5,9 @@
 <article class="presentation-entry">
 	<h2>${fn:escapeXml(pageScope.value.title)}</h2>
 	<h3>
-		${fn:escapeXml(encoder.toCommonName(pageScope.value.author))}
-		|
 		${fn:escapeXml(temporalBean.timeAgo(pageScope.value.date))}
 		|
-		<a href="xsp/app/blog/${pageScope.value.unid}">${translation.comments}</a>
+		<a href="xsp/app/presentation/${pageScope.value.unid}">${translation.comments}</a>
 	</h3>
-	<div>${pageScope.value.html}</div>
+	
 </articl

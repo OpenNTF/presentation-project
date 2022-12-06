@@ -5,6 +5,7 @@
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <li>
 	<a href="${empty pageScope.value.url ? 'javascript:void(0)' : urlBean.relativizeUrl(pageScope.value.url)}">${fn:escapeXml(pageScope.value.label)}</a>
+	<!-- 
 	<c:if test="${not empty pageScope.value.children}">
 		<ul>
 			<c:forEach items="${pageScope.value.children}" var="childLink">
@@ -12,4 +13,5 @@
 			</c:forEach>
 		</ul>
 	</c:if>
+	 -->
 </li>

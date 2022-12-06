@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><note xmlns="http://www.lotus.com/dxl" class="form" maintenanceversion="1.0" replicaid="C125890F006702B4" version="12.0">
+<noteinfo noteid="252" sequence="2" unid="C1A138CFF08E5225C1258910007A2089">
+<created><datetime>20221206T231357,21+01</datetime></created>
+<modified><datetime>20221206T231357,25+01</datetime></modified>
+<revised><datetime>20221206T231357,24+01</datetime></revised>
+<lastaccessed><datetime>20221206T231357,24+01</datetime></lastaccessed>
+<addedtofile><datetime>20221206T231357,21+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Oliver Busse/O=Nintera</name></updatedby>
+<wassignedby><name>CN=Oliver Busse/O=Nintera</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>model/home/NavLink.java</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>model/home/NavLink.java</text></item></note>

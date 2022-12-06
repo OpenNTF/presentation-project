@@ -1,4 +1,4 @@
-package model.blog;
+package model.presentation;
 
 import java.time.Instant;
 import java.time.LocalDate;
@@ -21,7 +21,7 @@ import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
 import jakarta.nosql.mapping.Pagination;
 
-@Entity("content_BlogEntry")
+@Entity("content_PresentationEntry")
 public class PresentationEntry implements Comparable<PresentationEntry> {
 	@RepositoryProvider("presentationsRepository")
 	public interface Repository extends DominoRepository<PresentationEntry, String> {
@@ -48,6 +48,11 @@ public class PresentationEntry implements Comparable<PresentationEntry> {
 	private String title;
 	@Column("createdOn")
 	private Temporal created;
+	
+	@Column("F_PresentationUrl")
+	private String urlDownload;
+	@Column("F_YoutubeUrl")
+	private String urlYoutube;
 
 	public PresentationEntry() {
 
@@ -85,5 +90,21 @@ public class PresentationEntry implements Comparable<PresentationEntry> {
 
 	public void setCreated(Temporal created) {
 		this.created = created;
+	}
+
+	public String getUrlDownload() {
+		return urlDownload;
+	}
+
+	public void setUrlDownload(String urlDownload) {
+		this.urlDownload = urlDownload;
+	}
+
+	public String getUrlYoutube() {
+		return urlYoutube;
+	}
+
+	public void setUrlYoutube(String urlYoutube) {
+		this.urlYoutube = urlYoutube;
 	}
 }
