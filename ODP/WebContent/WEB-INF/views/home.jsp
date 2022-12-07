@@ -5,6 +5,7 @@
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <t:layout>
 	<section class="main-content">
+	WTF
 		<div class="home-layout">
 			<section id="presentations">
 			<!-- 

@@ -22,9 +22,8 @@ public class PresentationsController {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String get() {
-		models.put("blogEntrySummaries", presentationEntries.getEntrySummaries()); //$NON-NLS-1$
-		
-		return "blog.jsp"; //$NON-NLS-1$
+		models.put("presentations", presentationEntries.getEntrySummaries()); //$NON-NLS-1$
+		return "home.jsp"; //$NON-NLS-1$
 	}
 	
 	@Path("{entryUnid}")
@@ -33,6 +32,6 @@ public class PresentationsController {
 	public String getEntry(@PathParam("entryUnid") String entryUnid) {
 		models.put("entry", presentationEntries.getEntry(entryUnid));
 		
-		return "blogEntry.jsp";
+		return "presentation.jsp";
 	}
 }

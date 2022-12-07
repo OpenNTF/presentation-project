@@ -30,15 +30,15 @@
 			<a href="${pageContext.request.contextPath}/xsp/app/" class="logo">
 				<img src="img/openntf_222222_bg.jpg" alt="${fn:escapeXml(translation.appTitle)}" />
 			</a>
-			<!-- 
 			<nav id="pagenav" role="navigation">
 				<ul>
+				<!--  
 					<c:forEach items="${NavLinks}" var="link">
 						<t:navlink value="${link}"/>
 					</c:forEach>
+					 -->
 				</ul>
 			</nav>
-			 -->
 			
 			<div class="user-info">
 				<c:if test="${pageContext.request.remoteUser eq 'Anonymous'}">
@@ -50,15 +50,15 @@
 			</div>
 		</header>
 		<main id="pagebody">
-		<!-- 
 			<c:if test="${not empty redirectMessages}">
 				<ul>
+				<!-- 
 					<c:forEach items="${redirectMessages}" var="message">
 						<li>${message}</li>
 					</c:forEach>
+					 -->
 				</ul>
 			</c:if>
-		 -->
 			<jsp:doBody />
 		</main>
 		<footer id="pagefooter">
