@@ -7,11 +7,9 @@
 	<section class="main-content">
 		<div class="home-layout">
 			<section id="presentations">
-			<%-- 
 				<c:forEach items="${presentations}" var="entry">
 					foo
 				</c:forEach>
-				 --%>
 			</section>
 		</div>
 	</section>

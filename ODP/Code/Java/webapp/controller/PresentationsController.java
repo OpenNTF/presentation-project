@@ -22,11 +22,10 @@ public class PresentationsController {
 	@GET
 	@Produces(MediaType.TEXT_HTML)
 	public String get() {
-		models.put("presentations", presentationEntries.getEntrySummaries());
+		models.put("presentations", presentationEntries.getEntries(5));
 		return "home.jsp";
 	}
 	
-	/*
 	@Path("{entryUnid}")
 	@GET
 	@Produces(MediaType.TEXT_HTML)
@@ -35,5 +34,4 @@ public class PresentationsController {
 		
 		return "presentation.jsp";
 	}
-	*/
 }
