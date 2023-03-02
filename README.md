@@ -63,7 +63,7 @@ Beside from being part of something bigger you can also learn some new technique
 
 ## Join the discussion
 
-We have a dedicated channel in the OpenNTF Slack: https://app.slack.com/client/T0A6JU4PL/C037SDWA073
+We have a dedicated channel in the OpenNTF Discord: https://discord.com/channels/953760981241200721/976841158091214848
 
 Text me here if you have any question :-)
 
@@ -74,3 +74,4 @@ This page is updated regularly.
 |Version|History|
 |---|---|
 |rev 0.0.1, 2022-03-22|Initial readme|
+|rev 0.0.2, 2023-03-02|Discord URL|
